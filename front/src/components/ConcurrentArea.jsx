@@ -1,12 +1,12 @@
-import { Polygon } from "react-leaflet";
+import { Polygon } from 'react-leaflet';
 
 export default function ConcurrentArea({ area }) {
-  const pathOptions = {
-    color: "red",
-    stroke: true,
-    weight: 0.01,
-    opacity: 0.5,
-  };
+	const pathOptions = {
+		color: 'red',
+		stroke: true,
+		weight: 0.01,
+		fillOpacity: 0.333
+	};
 
-  return <Polygon pathOptions={pathOptions} positions={area.coordinates} />;
+	return <Polygon pathOptions={pathOptions} positions={area.coordinates} />;
 }
