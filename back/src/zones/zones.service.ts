@@ -18,7 +18,7 @@ export class ZonesService {
 
   async findAll() {
     try {
-      const zones = await this.zoneModel.find();
+      const zones = await this.zoneModel.find({ dn: { $gt: 20 } });
       return zones;
     } catch (error) {
       throw new HttpException(error.message, HttpStatus.BAD_REQUEST);
