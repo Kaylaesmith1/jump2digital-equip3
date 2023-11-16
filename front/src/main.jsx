@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import SplashScreen from './components/SplashScreen.jsx';
-import Map from './components/Map.jsx';
+import App from './App.jsx';
 
 const router = createBrowserRouter([
 	{
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: '/map',
-		element: <Map />
+		element: <App />
 	}
 ]);
 
