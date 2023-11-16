@@ -1,8 +1,18 @@
-# Hacató Jump2Digial - BCN Secreta (equip 3)
+# Hacató Jump2Digial - Equip 3
 
-Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objectiu d'aquesta aplicació és decentralitzar la concentració de persones turístes a certes zones de la ciutat i animar-los a visitar altres llocs, potser menys coneguts, de Barcelona.
+Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objectiu d'aquesta aplicació és decentralitzar la concentració de persones turístes a certes zones de la ciutat i animar-los a visitar altres llocs, potser menys coneguts, que es veuen des del "BCN secreta".
 
-## Taula de Continguts
+# Table of contents
+
+- [Hacató Jump2Digial - Equip 3](#hacat-jump2digial---equip-3)
+  - [Taula de Continguts](#taula-de-continguts)
+  - [Instal·lació](#installaci)
+  - [Experiència de l'usuari (UX)](#experincia-de-lusuari-ux)
+  - [Llenguatges Utilitzats](#llenguatges-utilitzats)
+  - [Frameworks - Biblioteques - Programes utilitzats](#frameworks---biblioteques---programes-utilitzats)
+  - [Proves](#proves)
+  - [Implementacions al futur](#implementacions-al-futur)
+  - [Crèdits](#crdits)
 
 ## Instal·lació
 
@@ -80,17 +90,11 @@ La motivació de fer servir Nest per al Backend venia pel fet que fa servir per 
 
 S'han implementat tests mitjançant JEST per als endpoints de get associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades.
 
-## Bugs
-
-??? Anem escrivint...
 
 ## Implementacions al futur
 
-Hi ha un parell d'aspectes que es podrien implementar en futures versions d'aquest projecte per millorar l'experiència de l'usuari, els quals s'expliquen a continuació:
-
 L'API gestiona una quantitat ingent de dades, que en una evolució de la mateixa hauria de permetre acotarles a fi d'incrementar l'eficiència de les crides a servidor i millorar l'experiència d'usuari.
 
-\*\*\* si n'hi ha...
 
 ## Crèdits
 
