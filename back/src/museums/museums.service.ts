@@ -3,6 +3,7 @@ import { CreateMuseumDto } from './dto/create-museum.dto';
 import { UpdateMuseumDto } from './dto/update-museum.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Museum } from './schemas/museum.schema';
+import { Model } from 'mongoose';
 
 @Injectable()
 export class MuseumsService {
@@ -17,7 +18,7 @@ export class MuseumsService {
       const museums = await this.museumModel.findOneAndUpdate();
       return museums;
     } catch (error) {
-      throw HttpException(error.message, HttpStatus.BAD_REQUEST);
+      throw new HttpException(error.message, HttpStatus.BAD_REQUEST);
     }
   }
 
