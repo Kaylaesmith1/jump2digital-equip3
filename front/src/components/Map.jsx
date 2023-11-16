@@ -11,13 +11,6 @@ import { fetchConcurrentAreas, fetchMuseumData } from '../lib/utils';
 import MuseumIcon from '../icons/MuseumIcon';
 import ConcurrentArea from './ConcurrentArea';
 
-const fetchData = async () => {
-	const data = await fetch('http://localhost:3001/api/museums');
-	const dataJSON = await data.json();
-
-	console.log(dataJSON);
-};
-
 const Map = () => {
 	const [museums, setMuseums] = useState([]);
 	const [concurrentAreas, setConcurrentAreas] = useState([]);
@@ -32,11 +25,16 @@ const Map = () => {
 		html: iconMarkup
 	});
 
+	const fetchData = async () => {
+		const data = await fetch('http://localhost:3001/api/museums');
+		const dataJSON = await data.json();
+
+		setMuseums(dataJSON);
+	};
+
 	useEffect(() => {
-		const fetchedMuseums = fetchMuseumData();
 		const fetchedConcurrentAreas = fetchConcurrentAreas();
 
-		setMuseums(fetchedMuseums);
 		setConcurrentAreas(fetchedConcurrentAreas);
 
 		fetchData();
@@ -52,8 +50,8 @@ const Map = () => {
 				museums.map((museum) => {
 					return (
 						<Marker
-							key={museum.id}
-							position={[museum.latitud, museum.longitud]}
+							key={museum._id}
+							position={[museum.latitude, museum.longitude]}
 							icon={customMarkerIcon}
 						>
 							<Popup>

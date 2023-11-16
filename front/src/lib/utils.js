@@ -1,48 +1,48 @@
 const mockMuseumData = [
 	{
-		latitud: 41.3784,
-		longitud: 2.1925,
-		id: 0,
-		nom: "Museu d'Art Contemporani de Barcelona",
+		latitude: 41.3784,
+		longitude: 2.1925,
+		_id: 0,
+		name: "Museu d'Art Contemporani de Barcelona",
 		ambit: 'Art',
-		tipus_us: 'Públic',
-		tipus_equipament: 'Museu'
+		use_type: 'Públic',
+		equipment_type: 'Museu'
 	},
 	{
-		latitud: 41.3851,
-		longitud: 2.1734,
-		id: 1,
-		nom: "Museu Nacional d'Art de Catalunya",
+		latitude: 41.3851,
+		longitude: 2.1734,
+		_id: 1,
+		name: "Museu Nacional d'Art de Catalunya",
 		ambit: 'Art',
-		tipus_us: 'Públic',
-		tipus_equipament: 'Museu'
+		use_type: 'Públic',
+		equipment_type: 'Museu'
 	},
 	{
-		latitud: 41.3879,
-		longitud: 2.1699,
-		id: 2,
-		nom: 'Museu Picasso',
+		latitude: 41.3879,
+		longitude: 2.1699,
+		_id: 2,
+		name: 'Museu Picasso',
 		ambit: 'Art',
-		tipus_us: 'Públic',
-		tipus_equipament: 'Museu'
+		use_type: 'Públic',
+		equipment_type: 'Museu'
 	},
 	{
-		latitud: 41.375,
-		longitud: 2.1444,
-		id: 3,
-		nom: 'CosmoCaixa Barcelona',
+		latitude: 41.375,
+		longitude: 2.1444,
+		_id: 3,
+		name: 'CosmoCaixa Barcelona',
 		ambit: 'Science',
-		tipus_us: 'Públic',
-		tipus_equipament: 'Museu'
+		use_type: 'Públic',
+		equipment_type: 'Museu'
 	},
 	{
-		latitud: 41.3987,
-		longitud: 2.1905,
-		id: 4,
-		nom: 'Fundació Joan Miró',
+		latitude: 41.3987,
+		longitude: 2.1905,
+		_id: 4,
+		name: 'Fundació Joan Miró',
 		ambit: 'Art',
-		tipus_us: 'Públic',
-		tipus_equipament: 'Museu'
+		use_type: 'Públic',
+		equipment_type: 'Museu'
 	}
 ];
 
