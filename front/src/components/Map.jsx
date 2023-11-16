@@ -6,23 +6,15 @@ import 'leaflet/dist/leaflet.css';
 import { useEffect, useState } from 'react';
 
 import { getUserLocation } from '../lib/utils';
-import ConcurrentArea from './ConcurrentArea';
 import Loader from './Loader';
 import Museums from './Museums';
-import { fetchConcurrentAreas } from '../lib/data';
+import ConcurrentAreas from './ConcurrentAreas';
 
 const Map = () => {
 	const [userLocation, setUserLocation] = useState(null);
-	const [concurrentAreas, setConcurrentAreas] = useState([]);
 
 	useEffect(() => {
 		getUserLocation(setUserLocation);
-
-		// const fetchedConcurrentAreas = fetchConcurrentAreas();
-
-		// setConcurrentAreas(fetchedConcurrentAreas);
-
-		fetchConcurrentAreas(setConcurrentAreas);
 	}, []);
 
 	return userLocation === null ? (
@@ -39,15 +31,7 @@ const Map = () => {
 					<p className='font-medium'>You&apos;re here!</p>
 				</Popup>
 			</Marker>
-			{concurrentAreas.length > 0 &&
-				concurrentAreas.map((area) => {
-					return (
-						<ConcurrentArea
-							key={area.dn + area.coordinates[0][0]}
-							area={area}
-						/>
-					);
-				})}
+			<ConcurrentAreas />
 		</MapContainer>
 	);
 };
