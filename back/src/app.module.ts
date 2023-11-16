@@ -8,7 +8,9 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
     MuseumsModule,
-    MongooseModule.forRoot('mongodb://localhost:27017/secretbcn'),
+    MongooseModule.forRoot(
+      'mongodb+srv://admin:1234@secretbcn.aa4998n.mongodb.net/',
+    ),
     ConfigModule.forRoot({ isGlobal: true }),
   ],
   controllers: [AppController],
