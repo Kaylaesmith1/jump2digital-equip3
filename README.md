@@ -47,7 +47,7 @@ En el navegador accedir al port 5173
 http://localhost:5173
 ```
 
-Iniciar el backend, que es connectarà a la base de dades
+Accedir al directori de backend i iniciar el servidor, que es connectarà a la base de dades
 
 ```Bash
 cd ../back
@@ -55,7 +55,7 @@ npm i
 ```
 
 ```Bash
-npm run start:dev
+npm run start
 ```
 
 ## Experiència de l'usuari (UX)
