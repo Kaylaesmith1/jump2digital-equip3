@@ -27,10 +27,14 @@ const Map = () => {
 	});
 
 	const fetchData = async () => {
-		const data = await fetch('http://localhost:3001/api/museums');
-		const dataJSON = await data.json();
-
-		setMuseums(dataJSON);
+		try {
+			const data = await fetch('http://localhost:3001/api/museums');
+			const dataJSON = await data.json();
+	
+			setMuseums(dataJSON);
+		} catch (error) {
+			console.log(error);
+		}
 	};
 
 	useEffect(() => {
