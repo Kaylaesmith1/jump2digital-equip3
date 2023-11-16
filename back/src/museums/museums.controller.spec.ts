@@ -25,6 +25,7 @@ const mockMuseums = [
 
 describe('MuseumsController', () => {
   let controller: MuseumsController;
+
   const mockMuseumsService = {
     findAll: jest.fn().mockReturnValue(Promise.resolve(mockMuseums)),
   };
