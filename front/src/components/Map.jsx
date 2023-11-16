@@ -3,7 +3,7 @@ import { TileLayer } from 'react-leaflet/TileLayer';
 import { Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { getUserLocation } from '../lib/utils';
 import ConcurrentArea from './ConcurrentArea';
@@ -11,7 +11,7 @@ import Loader from './Loader';
 import Museums from './Museums';
 import { fetchConcurrentAreas } from '../lib/data';
 
-const Map = React.memo(() => {
+const Map = () => {
 	const [userLocation, setUserLocation] = useState(null);
 	const [concurrentAreas, setConcurrentAreas] = useState([]);
 
@@ -50,8 +50,6 @@ const Map = React.memo(() => {
 				})}
 		</MapContainer>
 	);
-});
-
-Map.displayName = 'Map';
+};
 
 export default Map;

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { fetchMuseums } from '../lib/data';
 
 import Card from './Card';
@@ -8,7 +8,7 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { divIcon } from 'leaflet';
 import { Marker, Popup } from 'react-leaflet';
 
-export default function Museums() {
+const Museums = React.memo(() => {
 	const [museums, setMuseums] = useState([]);
 
 	const iconMarkup = renderToStaticMarkup(
@@ -49,4 +49,8 @@ export default function Museums() {
 				})}
 		</>
 	);
-}
+});
+
+Museums.displayName = 'Museums';
+
+export default Museums;
