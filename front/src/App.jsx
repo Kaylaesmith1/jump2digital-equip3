@@ -1,11 +1,11 @@
+import Map from './components/Map';
 
 function App() {
-
-  return (
-    <>
-      <h1 className="bg-red-300">BCN Secreta</h1>
-    </>
-  )
+	return (
+		<>
+			<Map />
+		</>
+	);
 }
 
-export default App
+export default App;
