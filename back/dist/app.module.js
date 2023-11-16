@@ -21,7 +21,7 @@ exports.AppModule = AppModule = __decorate([
     (0, common_1.Module)({
         imports: [
             museums_module_1.MuseumsModule,
-            mongoose_1.MongooseModule.forRoot('mongodb://localhost:27017/secretbcn'),
+            mongoose_1.MongooseModule.forRoot('mongodb+srv://admin:1234@secretbcn.aa4998n.mongodb.net/'),
             config_1.ConfigModule.forRoot({ isGlobal: true }),
             zones_module_1.ZonesModule,
         ],
