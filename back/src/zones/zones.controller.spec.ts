@@ -7,7 +7,7 @@ import { Zone } from './schemas/zone.schema';
 const MOCK_ZONES = [
   {
     dn: 1,
-    geometry: '44',
+    coordinates: '44',
   },
 ];
 

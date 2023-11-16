@@ -19,6 +19,7 @@ export class ZonesService {
   async findAll() {
     try {
       const zones = await this.zoneModel.find();
+      console.log('zones', zones);
       return zones;
     } catch (error) {
       throw new HttpException(error.message, HttpStatus.BAD_REQUEST);

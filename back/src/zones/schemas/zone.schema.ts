@@ -9,7 +9,7 @@ export class Zone {
   dn: number;
 
   @Prop({ required: [true, 'Coordenadas de zona requeridas'] })
-  geometry: string;
+  coordinates: Array<Array<number>>;
 }
 
 export const ZoneSchema = SchemaFactory.createForClass(Zone);

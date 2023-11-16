@@ -1,4 +1,4 @@
 export class CreateZoneDto {
   dn: number;
-  geometry: string;
+  coordinates: Array<Array<number>>;
 }
