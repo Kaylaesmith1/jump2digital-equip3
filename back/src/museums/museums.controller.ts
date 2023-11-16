@@ -1,15 +1,6 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-} from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Delete } from '@nestjs/common';
 import { MuseumsService } from './museums.service';
 import { CreateMuseumDto } from './dto/create-museum.dto';
-import { UpdateMuseumDto } from './dto/update-museum.dto';
 
 @Controller('museums')
 export class MuseumsController {
@@ -17,6 +8,11 @@ export class MuseumsController {
 
   @Post()
   create(@Body() createMuseumDto: CreateMuseumDto) {
+    return this.museumsService.create(createMuseumDto);
+  }
+
+  @Post('/populate')
+  populate(@Body() createMuseumDto: CreateMuseumDto) {
     return this.museumsService.create(createMuseumDto);
   }
 
@@ -28,11 +24,6 @@ export class MuseumsController {
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.museumsService.findOne(+id);
-  }
-
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateMuseumDto: UpdateMuseumDto) {
-    return this.museumsService.update(+id, updateMuseumDto);
   }
 
   @Delete(':id')
