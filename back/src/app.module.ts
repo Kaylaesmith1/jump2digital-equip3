@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { MuseumsModule } from './museums/museums.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
+import { ZonesModule } from './zones/zones.module';
 
 @Module({
   imports: [
@@ -12,6 +13,7 @@ import { ConfigModule } from '@nestjs/config';
       'mongodb+srv://admin:1234@secretbcn.aa4998n.mongodb.net/',
     ),
     ConfigModule.forRoot({ isGlobal: true }),
+    ZonesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
