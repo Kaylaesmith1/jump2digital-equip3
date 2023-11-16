@@ -31,8 +31,6 @@ export const fetchConcurrentAreasPage = async (
 		);
 		const dataJSON = await data.json();
 
-		console.log({ dataJSON });
-
 		setConcurrentAreas((prevAreas) => [...prevAreas, ...dataJSON]);
 	} catch (err) {
 		console.error(err);
