@@ -8,6 +8,6 @@ describe('<Nav />', () => {
     expect(container).toBeTruthy();
 
     const toggleComponents = container.querySelectorAll('.Toggle');
-    expect(toggleComponents.length).toBe(3);
+    expect(toggleComponents.length).toBe(2);
   });
 });
