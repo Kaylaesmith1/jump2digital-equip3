@@ -22,14 +22,6 @@ const Map = () => {
 		</div> // TODO: fix this customizable marker
 	);
 
-	// <Card
-	//           name="Museo"
-	//           description="Hola esto es una descripcion"
-	//           type="Centres d'exposicions"
-	//           x="41.3991812"
-	//           y="2.1901921"
-	//         />
-
 	const customMarkerIcon = divIcon({
 		html: iconMarkup
 	});
@@ -64,7 +56,13 @@ const Map = () => {
 							icon={customMarkerIcon}
 						>
 							<Popup>
-								A pretty CSS3 popup. <br /> Easily customizable.
+								<Card
+									name='Museo'
+									description='Hola esto es una descripcion'
+									type="Centres d'exposicions"
+									x='41.3991812'
+									y='2.1901921'
+								/>
 							</Popup>
 						</Marker>
 					);
