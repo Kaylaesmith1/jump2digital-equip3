@@ -4,9 +4,8 @@ import Toggle from './Toggle.jsx';
 const Nav = () => {
 
   const [ isChecked, setIsChecked ] = useState({
-    'Museos': { checked: true, value: 'Museos'},
-    'Actividades': { checked: true, value: 'Actividades'},
-    'Ocio': { checked: true, value: 'Ocio'},
+    "centre d'exposicions": { checked: true, value: "centre d'exposicions"},
+    'centres patrimonials': { checked: true, value: 'centres patrimonials'},
   });
 
   const handleChange = (event) => {
@@ -21,9 +20,8 @@ const Nav = () => {
 
   return (
     <nav className="h-14 w-max flex items-center ml-auto px-24 gap-5">
-      <Toggle id="Museos" onChange={handleChange} checked={isChecked['Museos']?.checked || false}/>
-      <Toggle id="Actividades" onChange={handleChange} checked={isChecked['Actividades']?.checked || false}/>
-      <Toggle id="Ocio" onChange={handleChange} checked={isChecked['Ocio']?.checked || false}/>
+      <Toggle id="centre d'exposicions" onChange={handleChange} checked={isChecked["centre d'exposicions"]?.checked || false}/>
+      <Toggle id="centres patrimonials" onChange={handleChange} checked={isChecked['centres patrimonials']?.checked || false}/>
     </nav>
   );
 }
