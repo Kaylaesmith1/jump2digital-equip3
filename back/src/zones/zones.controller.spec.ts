@@ -7,7 +7,7 @@ import { Zone } from './schemas/zone.schema';
 const MOCK_ZONES = [
   {
     dn: 1,
-    geometry: '44',
+    coordinates: '44',
   },
 ];
 
@@ -38,7 +38,8 @@ describe('ZonesService', () => {
   it('should be defined', () => {
     expect(controller).toBeDefined();
   });
-  it('should return and array of zoness ', async () => {
+
+  it('should return and array of zones', async () => {
     expect(await controller.findAll()).toMatchObject(MOCK_ZONES);
   });
 });
