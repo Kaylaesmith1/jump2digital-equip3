@@ -8,6 +8,7 @@ export default function ConcurrentAreas() {
 	useEffect(() => {
 		fetchConcurrentAreas(setConcurrentAreas);
 	}, []);
+
 	return (
 		<>
 			{concurrentAreas.length > 0 &&
