@@ -5,7 +5,7 @@ export default function ConcurrentArea({ area }) {
 		color: 'red',
 		stroke: true,
 		weight: 0.01,
-		opacity: 0.5
+		fillOpacity: 0.4
 	};
 
 	return <Polygon pathOptions={pathOptions} positions={area.coordinates} />;
