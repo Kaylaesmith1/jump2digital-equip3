@@ -57,11 +57,11 @@ const Map = () => {
 						>
 							<Popup>
 								<Card
-									name='Museo'
-									description='Hola esto es una descripcion'
-									type="Centres d'exposicions"
-									x='41.3991812'
-									y='2.1901921'
+									name={museum.name}
+									description={museum.equipment_type}
+									type={museum.use_type}
+									x={museum.latitude}
+									y={museum.longitude}
 								/>
 							</Popup>
 						</Marker>
