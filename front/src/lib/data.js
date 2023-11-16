@@ -19,3 +19,22 @@ export const fetchConcurrentAreas = async (setConcurrentAreas) => {
 		console.error(err);
 	}
 };
+
+export const fetchConcurrentAreasPage = async (
+	page,
+	limit,
+	setConcurrentAreas
+) => {
+	try {
+		const data = await fetch(
+			`http://localhost:3001/api/zones?page=${page}&limit=${limit}`
+		);
+		const dataJSON = await data.json();
+
+		console.log({ dataJSON });
+
+		setConcurrentAreas((prevAreas) => [...prevAreas, ...dataJSON]);
+	} catch (err) {
+		console.error(err);
+	}
+};
