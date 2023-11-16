@@ -7,11 +7,13 @@ import 'leaflet/dist/leaflet.css';
 
 import { useEffect, useState } from 'react';
 
-import { fetchMuseumData } from '../lib/utils';
+import { fetchConcurrentAreas, fetchMuseumData } from '../lib/utils';
 import MuseumIcon from '../icons/MuseumIcon';
+import ConcurrentArea from './ConcurrentArea';
 
 const Map = () => {
 	const [museums, setMuseums] = useState([]);
+	const [concurrentAreas, setConcurrentAreas] = useState([]);
 
 	const iconMarkup = renderToStaticMarkup(
 		<div className='h-6 w-6 bg-white border-none'>
@@ -25,8 +27,10 @@ const Map = () => {
 
 	useEffect(() => {
 		const fetchedMuseums = fetchMuseumData();
+		const fetchedConcurrentAreas = fetchConcurrentAreas();
 
 		setMuseums(fetchedMuseums);
+		setConcurrentAreas(fetchedConcurrentAreas);
 	}, []);
 
 	return (
@@ -48,6 +52,10 @@ const Map = () => {
 							</Popup>
 						</Marker>
 					);
+				})}
+			{concurrentAreas.length > 0 &&
+				concurrentAreas.map((area) => {
+					return <ConcurrentArea key={area.lat + area.lng} area={area} />;
 				})}
 			{/* <Marker position={[51.505, -0.09]} icon={customMarkerIcon}>
 				<Popup>
