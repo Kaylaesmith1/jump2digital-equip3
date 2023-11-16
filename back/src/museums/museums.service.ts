@@ -10,7 +10,15 @@ export class MuseumsService {
 
   async create(createMuseumDto: CreateMuseumDto) {
     try {
-      await this.museumModel.create(createMuseumDto);
+      const museumsCreated = await this.museumModel.create(createMuseumDto, {
+        new: true,
+      });
+      if (!museumsCreated)
+        throw new HttpException(
+          'Error cargando los museos',
+          HttpStatus.SERVICE_UNAVAILABLE,
+        );
+      return 'Museos cargados correctamente';
     } catch (error) {
       console.log(error);
     }
