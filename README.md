@@ -1,27 +1,54 @@
 # Hacató Jump2Digial - BCN Secreta (equip 3)
 
-Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objectiu d'aquesta aplicació és decentralitzar la concentració de persones turístes a certes zones de la ciutat i animar-los a visitar altres llocs, potser menys coneguts, de Barcelona. 
-
-<!-- L'enllaç per veure la web a l'entorn real es pot trobar [aquí](https://kaylaesmith1.github.io/jump2digital-hackathon/).
-
-
-![Disseny responsiu](/assets/images/amiresponsive.png) -->
-
+Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objectiu d'aquesta aplicació és decentralitzar la concentració de persones turístes a certes zones de la ciutat i animar-los a visitar altres llocs, potser menys coneguts, de Barcelona.
 
 ## Taula de Continguts
-- [Hacató Jump2Digial - BCN Secreta (equip 3)](#hacat-jump2digial---bcn-secreta-equip-3)
-  - [Taula de Continguts](#taula-de-continguts)
-  - [Experiència de l'usuari (UX)](#experincia-de-lusuari-ux)
-  - [Proves](#proves)
-  - [Llengües Utilitzades](#llenges-utilitzades)
-  - [Frameworks - Biblioteques - Programes utilitzats](#frameworks---biblioteques---programes-utilitzats)
-  - [Bugs](#bugs)
-  - [Implementacions al futur](#implementacions-al-futur)
-  - [Crèdits](#crdits)
 
+## Instal·lació
+
+Per fer funcionar aquesta app cal disposar del següent programari:
+
+- NodeJS
+- VSCode
+- Git
+
+Clonar el repositori a vscode
+
+```Bash
+git clone https://github.com/Kaylaesmith1/jump2digital-equip3/tree/main
+```
+
+Accedir als directoris de front i de back i instal·lar els paquets:
+
+```Bash
+cd back
+npm i
+cd ..
+cd front
+npm i
+```
+
+Executar el servidor, que es connectarà a la base de dades
+
+```Bash
+npm run start:watch
+```
+
+Iniciar el frontend
+
+```Bash
+npm run dev
+```
+
+En el navegador accedir al port 5173
+
+```
+http://localhost:5173
+```
 
 ## Experiència de l'usuari (UX)
-Aquesta aplicació està dirigida als visitants que vénen a Barcelona i volen participar en activitats turístiques. Moltes vegades, la ciutat es congestiona amb la quantitat de turisme que rep cada any als llocs i atraccions més coneguts. 
+
+Aquesta aplicació està dirigida als visitants que vénen a Barcelona i volen participar en activitats turístiques. Moltes vegades, la ciutat es congestiona amb la quantitat de turisme que rep cada any als llocs i atraccions més coneguts.
 
 La nostra aplicació permet que als usuaris vegin opcions de llocs per visitar que estan fora del "camí trepitjat", fent-los il·lusió a descobrir la 'Barcelona secreta'.
 
@@ -29,43 +56,44 @@ L'usuari podrà obrir l'aplicació i clicar un botó per veure un mapa amb els m
 
 A més d'una representació visual dels museus, l'usuari tindrà la seva ubicació gràcies a la geolocalització. Això es permetrà tracar-se una ruta a peu, en transport públic o en bicicleta per arribar al museu.
 
-Per a qualsevol usuari, la pàgina ha de veure's bé a totes les mides de dispositiu, ha d'estar disponible en diversos navegadors i ser fàcilment llegible. 
+Per a qualsevol usuari, la pàgina ha de veure's bé a totes les mides de dispositiu, ha d'estar disponible en diversos navegadors i ser fàcilment llegible.
 
-
-
-## Proves 
-BACK END--QUINS TESTS HEU FET??
-
-
-## Llengües Utilitzades
+## Llenguatges Utilitzats
 
 - HTML
 - CSS
 - Javascript
-- React
-- Vite
-- Tailwind
-
-**Afegiu qualsevol cosa més
-
+- Typescript
 
 ## Frameworks - Biblioteques - Programes utilitzats
+
 - [GitHub](https://github.com/) - Usat per allotjar el repositori del projecte.
 - [React](https://www.react.express/) - Usat pel frontend del projecte.
 - [Vite + Tailwind](https://tailwindcss.com/docs/guides/vite) - CSS utilitzat per desenvolupar el 'responsiveness' i el disseny del lloc web.
+- [Nestjs](https://nestjs.com/)
+- [MongoDB](https://www.mongodb.com/es)
+- [Mongoose](https://mongoosejs.com/)
 
-**aneu-hi afegint...
+La motivació de fer servir Nest per al Backend venia pel fet que fa servir per defecte l'esquema de model-vista-controlador, que hem cregut adient per a aquesta aplicació, i deixa pre configurats els tests dels diferents serveis i controladors.
 
+## Proves
+
+S'han implementat tests mitjançant JEST per als endpoints de get associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades.
 
 ## Bugs
+
 ??? Anem escrivint...
 
 ## Implementacions al futur
+
 Hi ha un parell d'aspectes que es podrien implementar en futures versions d'aquest projecte per millorar l'experiència de l'usuari, els quals s'expliquen a continuació:
 
-*** si n'hi ha...
+L'API gestiona una quantitat ingent de dades, que en una evolució de la mateixa hauria de permetre acotarles a fi d'incrementar l'eficiència de les crides a servidor i millorar l'experiència d'usuari.
+
+\*\*\* si n'hi ha...
 
 ## Crèdits
+
 Ens agradaria donar les gràcies a Jump2Digital per acollir aquest esdeveniment i facilitar aquesta experiència d'equip a través d'un hackathó presencial. Els mentors han sigut extremadament útils per al nostre equip i han proporcionat una retroalimentació valuosa, tant al principi com al llarg de les activitats del dia.
 
 Per últim, gràcies al nostre equip per haver treballat junts d'una manera diligenta per fer realitat aquesta aplicació!
