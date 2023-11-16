@@ -28,20 +28,11 @@ Clonar el repositori a vscode
 git clone https://github.com/Kaylaesmith1/jump2digital-equip3/tree/main
 ```
 
-Accedir als directoris de front i de back i instal·lar els paquets:
+Accedir als directori de front i instal·lar els paquets:
 
 ```Bash
-cd back
-npm i
-cd ..
 cd front
 npm i
-```
-
-Executar el backend, que es connectarà a la base de dades
-
-```Bash
-npm run start:dev
 ```
 
 Iniciar el frontend
@@ -54,6 +45,17 @@ En el navegador accedir al port 5173
 
 ```
 http://localhost:5173
+```
+
+Iniciar el backend, que es connectarà a la base de dades
+
+```Bash
+cd ../back
+npm i
+```
+
+```Bash
+npm run start:dev
 ```
 
 ## Experiència de l'usuari (UX)
