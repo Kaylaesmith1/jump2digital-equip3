@@ -2,10 +2,10 @@
 
 Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objectiu d'aquesta aplicació és decentralitzar la concentració de persones turístes a certes zones de la ciutat i animar-los a visitar altres llocs, potser menys coneguts, que es veuen des del "BCN secreta".
 
-# Table of contents
+# Taula de contigut
 
 - [Hackató Jump2Digial - Equip 3](#hackató-jump2digial---equip-3)
-- [Table of contents](#table-of-contents)
+- [Taula de contigut](#taula-de-contigut)
   - [Instal·lació](#installació)
   - [Experiència de l'usuari (UX)](#experiència-de-lusuari-ux)
   - [Llenguatges Utilitzats](#llenguatges-utilitzats)
@@ -38,10 +38,10 @@ cd front
 npm i
 ```
 
-Executar el servidor, que es connectarà a la base de dades
+Executar el backend, que es connectarà a la base de dades
 
 ```Bash
-npm run start:watch
+npm run start:dev
 ```
 
 Iniciar el frontend
@@ -88,8 +88,7 @@ La motivació de fer servir Nest per al Backend venia pel fet que fa servir per 
 
 ## Proves
 
-S'han implementat tests mitjançant JEST per als endpoints de get associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades.
-
+S'han implementat tests unitaris mitjançant JEST per als endpoints associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades.
 
 ## Implementacions al futur
 
