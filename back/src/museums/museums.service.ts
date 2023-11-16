@@ -1,6 +1,4 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
-import { CreateMuseumDto } from './dto/create-museum.dto';
-import { UpdateMuseumDto } from './dto/update-museum.dto';
 import { InjectModel } from '@nestjs/mongoose';
 import { Museum } from './schemas/museum.schema';
 import { Model } from 'mongoose';
