@@ -91,7 +91,7 @@ npm run start
 
 ## Proves / Tests
 
-S'han implementat tests unitaris mitjançant JEST per als endpoints associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades.
+S'han implementat tests unitaris mitjançant JEST per als endpoints associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades. També incorpora Swagger per veure la documentació de la API.
 
 ## Implementacions al futur
 
