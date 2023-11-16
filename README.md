@@ -6,55 +6,14 @@ Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objec
 
 - [Hackató Jump2Digial - Equip 3](#hackató-jump2digial---equip-3)
 - [Taula de contigut](#taula-de-contigut)
-  - [Instal·lació](#installació)
   - [Experiència de l'usuari (UX)](#experiència-de-lusuari-ux)
   - [Llenguatges Utilitzats](#llenguatges-utilitzats)
   - [Frameworks - Biblioteques - Programes utilitzats](#frameworks---biblioteques---programes-utilitzats)
-  - [Proves](#proves)
+  - [Instal·lació](#installació)
+  - [Proves / Tests](#proves--tests)
   - [Implementacions al futur](#implementacions-al-futur)
   - [Crèdits](#crèdits)
-
-## Instal·lació
-
-Per fer funcionar aquesta app cal disposar del següent programari:
-
-- NodeJS
-- VSCode
-- Git
-
-Clonar el repositori a vscode
-
-```Bash
-git clone https://github.com/Kaylaesmith1/jump2digital-equip3/tree/main
-```
-
-Accedir als directoris de front i de back i instal·lar els paquets:
-
-```Bash
-cd back
-npm i
-cd ..
-cd front
-npm i
-```
-
-Executar el backend, que es connectarà a la base de dades
-
-```Bash
-npm run start:dev
-```
-
-Iniciar el frontend
-
-```Bash
-npm run dev
-```
-
-En el navegador accedir al port 5173
-
-```
-http://localhost:5173
-```
+  - [Equip](#equip)
 
 ## Experiència de l'usuari (UX)
 
@@ -86,7 +45,51 @@ Per a qualsevol usuari, la pàgina ha de veure's bé a totes les mides de dispos
 
 La motivació de fer servir Nest per al Backend venia pel fet que fa servir per defecte l'esquema de model-vista-controlador, que hem cregut adient per a aquesta aplicació, i deixa pre configurats els tests dels diferents serveis i controladors.
 
-## Proves
+## Instal·lació
+
+Per fer funcionar aquesta app cal disposar del següent programari:
+
+- NodeJS
+- VSCode
+- Git
+
+Clonar el repositori a vscode
+
+```Bash
+git clone https://github.com/Kaylaesmith1/jump2digital-equip3/tree/main
+```
+
+Accedir als directori de front i instal·lar els paquets:
+
+```Bash
+cd front
+npm i
+```
+
+Iniciar el frontend
+
+```Bash
+npm run dev
+```
+
+En el navegador accedir al port 5173
+
+```
+http://localhost:5173
+```
+
+Accedir al directori de backend i iniciar el servidor, que es connectarà a la base de dades
+
+```Bash
+cd ../back
+npm i
+```
+
+```Bash
+npm run start
+```
+
+## Proves / Tests
 
 S'han implementat tests unitaris mitjançant JEST per als endpoints associats a punts d'interès i zones. Concretament pels controladors dels models de Museus i Zones, i pels serveis que utilitzen per comunicar-se amb la base de dades.
 
@@ -100,3 +103,7 @@ L'API gestiona una quantitat ingent de dades, que en una evolució de la mateixa
 Ens agradaria donar les gràcies a Jump2Digital per acollir aquest esdeveniment i facilitar aquesta experiència d'equip a través d'un hackathó presencial. Els mentors han sigut extremadament útils per al nostre equip i han proporcionat una retroalimentació valuosa, tant al principi com al llarg de les activitats del dia.
 
 Per últim, gràcies al nostre equip per haver treballat junts d'una manera diligenta per fer realitat aquesta aplicació!
+
+## Equip
+
+Raul Alhena
