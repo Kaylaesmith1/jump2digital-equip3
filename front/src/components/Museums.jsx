@@ -11,11 +11,7 @@ import { Marker, Popup } from 'react-leaflet';
 const Museums = React.memo(() => {
 	const [museums, setMuseums] = useState([]);
 
-	const iconMarkup = renderToStaticMarkup(
-		<div className='h-6 w-6 bg-white border-none'>
-			<MuseumIcon />
-		</div> // TODO: fix this customizable marker
-	);
+	const iconMarkup = renderToStaticMarkup(<MuseumIcon />);
 
 	const customMarkerIcon = divIcon({
 		html: iconMarkup

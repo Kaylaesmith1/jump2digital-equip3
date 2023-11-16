@@ -3,38 +3,43 @@
 @tailwind utilities;
 
 :root {
-  position: absolute;
-  right: 0;
-  z-index: 1;
+	position: absolute;
+	right: 0;
+	z-index: 1;
 }
 
 .leaflet-container {
-  position: fixed !important;
-  inset: 0 !important;
-  z-index: -1 !important;
-  height: 100vh;
+	position: fixed !important;
+	inset: 0 !important;
+	z-index: -1 !important;
+	height: 100vh;
+}
+
+.leaflet-div-icon {
+	background: none !important;
+	border: none !important;
 }
 
 .splash-screen {
-  background: hsla(208, 33%, 21%, 1);
+	background: hsla(208, 33%, 21%, 1);
 
-  background: linear-gradient(
-    270deg,
-    hsla(208, 33%, 21%, 1) 0%,
-    hsla(211, 36%, 46%, 1) 100%
-  );
+	background: linear-gradient(
+		270deg,
+		hsla(208, 33%, 21%, 1) 0%,
+		hsla(211, 36%, 46%, 1) 100%
+	);
 
-  background: -moz-linear-gradient(
-    270deg,
-    hsla(208, 33%, 21%, 1) 0%,
-    hsla(211, 36%, 46%, 1) 100%
-  );
+	background: -moz-linear-gradient(
+		270deg,
+		hsla(208, 33%, 21%, 1) 0%,
+		hsla(211, 36%, 46%, 1) 100%
+	);
 
-  background: -webkit-linear-gradient(
-    270deg,
-    hsla(208, 33%, 21%, 1) 0%,
-    hsla(211, 36%, 46%, 1) 100%
-  );
+	background: -webkit-linear-gradient(
+		270deg,
+		hsla(208, 33%, 21%, 1) 0%,
+		hsla(211, 36%, 46%, 1) 100%
+	);
 
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4b749f", GradientType=1 );
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#243748", endColorstr="#4b749f", GradientType=1 );
 }
