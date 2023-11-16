@@ -1,18 +1,18 @@
-# Hacató Jump2Digial - Equip 3
+# Hackató Jump2Digial - Equip 3
 
 Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objectiu d'aquesta aplicació és decentralitzar la concentració de persones turístes a certes zones de la ciutat i animar-los a visitar altres llocs, potser menys coneguts, que es veuen des del "BCN secreta".
 
 # Table of contents
 
-- [Hacató Jump2Digial - Equip 3](#hacat-jump2digial---equip-3)
-  - [Taula de Continguts](#taula-de-continguts)
-  - [Instal·lació](#installaci)
-  - [Experiència de l'usuari (UX)](#experincia-de-lusuari-ux)
+- [Hackató Jump2Digial - Equip 3](#hackató-jump2digial---equip-3)
+- [Table of contents](#table-of-contents)
+  - [Instal·lació](#installació)
+  - [Experiència de l'usuari (UX)](#experiència-de-lusuari-ux)
   - [Llenguatges Utilitzats](#llenguatges-utilitzats)
   - [Frameworks - Biblioteques - Programes utilitzats](#frameworks---biblioteques---programes-utilitzats)
   - [Proves](#proves)
   - [Implementacions al futur](#implementacions-al-futur)
-  - [Crèdits](#crdits)
+  - [Crèdits](#crèdits)
 
 ## Instal·lació
 
