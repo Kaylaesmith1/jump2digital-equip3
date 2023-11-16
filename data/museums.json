@@ -2,17 +2,457 @@
     {
         "name": "Arxiu Fotogr\u00e0fic de Barcelona",
         "use_type": "Centres d'exposicions",
-        "equipament_type": "Arxius i biblioteques patrimonials",
+        "equipment_type": "Arxius i biblioteques patrimonials",
         "ambit": "Hist\u00f2ria i mem\u00f2ria",
-        "latitud": 41.38687264,
-        "longitud": 2.181806284
+        "latitude": 41.38687264,
+        "longitude": 2.181806284
     },
     {
         "name": "Bas\u00edlica de la Sagrada Fam\u00edlia",
         "use_type": "Centres patrimonials",
-        "equipament_type": "Espais d'inter\u00e8s patrimonial",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
         "ambit": "Hist\u00f2ria i mem\u00f2ria",
-        "latitud": 41.403188985,
-        "longitud": 2.174826626
+        "latitude": 41.403188985,
+        "longitude": 2.174826626
+    },
+    {
+        "name": "CaixaForum",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.371294526,
+        "longitude": 2.149575441
+    },
+    {
+        "name": "Can Framis. Fundaci\u00f3 Vila Casas",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.402912812,
+        "longitude": 2.194947848
+    },
+    {
+        "name": "Casa Amatller",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.3913381,
+        "longitude": 2.16468108
+    },
+    {
+        "name": "Casa Batll\u00f3",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.3916967,
+        "longitude": 2.1649608
+    },
+    {
+        "name": "Casa Museu Gaud\u00ed",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.414781293,
+        "longitude": 2.155046761
+    },
+    {
+        "name": "Casa Vicens",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.4036093,
+        "longitude": 2.1512308
+    },
+    {
+        "name": "Castell de Montju\u00efc",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.3675648,
+        "longitude": 2.1685315
+    },
+    {
+        "name": "Centre de Cultura Contempor\u00e0nia de Barcelona. CCCB",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.383883057,
+        "longitude": 2.166795152
+    },
+    {
+        "name": "CosmoCaixa",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Ci\u00e8ncia",
+        "latitude": 41.413267367,
+        "longitude": 2.130658424
+    },
+    {
+        "name": "Disseny Hub Barcelona. DHUB",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Multidisciplinaris i altres",
+        "latitude": 41.4028071845,
+        "longitude": 2.1877594342
+    },
+    {
+        "name": "El Born Centre de Cultura i Mem\u00f2ria",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.385641483,
+        "longitude": 2.183568044
+    },
+    {
+        "name": "Espai Bombers Parc de la Prevenci\u00f3",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.373639,
+        "longitude": 2.1543788
+    },
+    {
+        "name": "Espais VolART i VolART2. Fundaci\u00f3 Vila Casas",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.390963134,
+        "longitude": 2.175293998
+    },
+    {
+        "name": "Fabra i Coats - Centre d'Art Contemporani",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.433762956,
+        "longitude": 2.190815632
+    },
+    {
+        "name": "Fundaci\u00f3 Antoni T\u00e0pies",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.391522171,
+        "longitude": 2.163757744
+    },
+    {
+        "name": "Fundaci\u00f3 Foto Colectania",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.3876349,
+        "longitude": 2.1827391
+    },
+    {
+        "name": "Fundaci\u00f3 Fran Daurel",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.369116603,
+        "longitude": 2.146724957
+    },
+    {
+        "name": "Fundaci\u00f3 Joan Mir\u00f3",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.36863,
+        "longitude": 2.159851
+    },
+    {
+        "name": "Fundaci\u00f3 Julio Mu\u00f1oz Ramonet",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.3965689891,
+        "longitude": 2.1470359125
+    },
+    {
+        "name": "Fundaci\u00f3 Su\u00f1ol",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.3826167,
+        "longitude": 2.1262746
+    },
+    {
+        "name": "Hash Marihuana C\u00e1\u00f1amo & Hemp Museum",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.380783393,
+        "longitude": 2.180139311
+    },
+    {
+        "name": "Ideal - Centre d'Arts Digitals",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 2.20267,
+        "longitude": 41.39795
+    },
+    {
+        "name": "KBr Fundaci\u00f3n MAPFRE",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.388415,
+        "longitude": 2.1960494
+    },
+    {
+        "name": "L'Aqu\u00e0rium",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Ci\u00e8ncia",
+        "latitude": 41.376477557,
+        "longitude": 2.184560919
+    },
+    {
+        "name": "La Capella",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.381057326,
+        "longitude": 2.169793857
+    },
+    {
+        "name": "La Model",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.3831306779,
+        "longitude": 2.144726596
+    },
+    {
+        "name": "La Pedrera",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Arts visuals",
+        "latitude": 41.395316302,
+        "longitude": 2.162043384
+    },
+    {
+        "name": "La Virreina Centre de la Imatge",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.382498322,
+        "longitude": 2.17170863
+    },
+    {
+        "name": "MUHBA Museu d'Hist\u00f2ria de Barcelona",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.384316,
+        "longitude": 2.177521
+    },
+    {
+        "name": "Museu d'Arqueologia de Catalunya",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.370153865,
+        "longitude": 2.157646024
+    },
+    {
+        "name": "Museu d'Art Contemporani de Barcelona. MACBA",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.383145956,
+        "longitude": 2.167830774
+    },
+    {
+        "name": "Museu d'Hist\u00f2ria de Catalunya",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.380668608,
+        "longitude": 2.18550348
+    },
+    {
+        "name": "Museu de Cera",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.377099024,
+        "longitude": 2.177442932
+    },
+    {
+        "name": "Museu de Ci\u00e8ncies Naturals de Barcelona. MCNB",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Ci\u00e8ncia",
+        "latitude": 41.410779883,
+        "longitude": 2.220482541
+    },
+    {
+        "name": "Museu de l'Er\u00f2tica",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.382282529,
+        "longitude": 2.172714946
+    },
+    {
+        "name": "Museu de la M\u00fasica",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.398366625,
+        "longitude": 2.184867722
+    },
+    {
+        "name": "Museu de la Xocolata",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.387387733,
+        "longitude": 2.181708405
+    },
+    {
+        "name": "Museu del Disseny de Barcelona",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.4025295462,
+        "longitude": 2.188065206
+    },
+    {
+        "name": "Museu del Futbol Club Barcelona",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.379059282,
+        "longitude": 2.120267204
+    },
+    {
+        "name": "Museu dels Aut\u00f2mats del Tibidabo",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.42174827,
+        "longitude": 2.11979347
+    },
+    {
+        "name": "Museu Egipci de Barcelona",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.393626242,
+        "longitude": 2.164736478
+    },
+    {
+        "name": "Museu Etnol\u00f2gic i de Cultures del M\u00f3n",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.36906211,
+        "longitude": 2.155983304
+    },
+    {
+        "name": "Museu Frederic Mar\u00e8s",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.384173998,
+        "longitude": 2.176939205
+    },
+    {
+        "name": "Museu Mar\u00edtim de Barcelona. MMB",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.375949813,
+        "longitude": 2.176041471
+    },
+    {
+        "name": "Museu Nacional d'Art de Catalunya. MNAC",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.368853566,
+        "longitude": 2.153363173
+    },
+    {
+        "name": "Museu Ol\u00edmpic i de l'Esport Joan Antoni Samaranch",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.366249336,
+        "longitude": 2.157076095
+    },
+    {
+        "name": "Museu Picasso",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Arts visuals",
+        "latitude": 41.385152312,
+        "longitude": 2.180834795
+    },
+    {
+        "name": "Palau G\u00fcell",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.3791747,
+        "longitude": 2.1744127
+    },
+    {
+        "name": "Palau Robert",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.396100952,
+        "longitude": 2.159514266
+    },
+    {
+        "name": "Park G\u00fcell",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.4134251,
+        "longitude": 2.1531849
+    },
+    {
+        "name": "Pavell\u00f3 Mies van der Rohe",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.370666,
+        "longitude": 2.149491
+    },
+    {
+        "name": "Recinte Modernista de Sant Pau",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Espais d'inter\u00e8s patrimonial",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.4118413,
+        "longitude": 2.1744033
+    },
+    {
+        "name": "Reial Monestir de Santa Maria de Pedralbes",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Hist\u00f2ria i mem\u00f2ria",
+        "latitude": 41.395574166,
+        "longitude": 2.112056853
+    },
+    {
+        "name": "Santa M\u00f2nica",
+        "use_type": "Centres d'exposicions",
+        "equipment_type": "Centres d'exposicions",
+        "ambit": "Arts visuals",
+        "latitude": 41.377227254,
+        "longitude": 2.175597264
+    },
+    {
+        "name": "Zoo de Barcelona",
+        "use_type": "Centres patrimonials",
+        "equipment_type": "Museus i col\u00b7leccions",
+        "ambit": "Ci\u00e8ncia",
+        "latitude": 41.386823,
+        "longitude": 2.190346
     }
 ]
