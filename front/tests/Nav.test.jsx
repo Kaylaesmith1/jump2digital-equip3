@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import Nav from '../src/components/Nav.jsx';
 
 describe('<Nav />', () => {
-  test('Nav mounts properly and has 3 Toggle components with correct props and ids', () => {
+  test('Nav mounts properly and has 3 Toggle components', () => {
     const { container } = render(<Nav />);
     expect(container).toBeTruthy();
 
