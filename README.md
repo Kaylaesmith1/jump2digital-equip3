@@ -13,7 +13,6 @@ Reduir la concentració de turístes a punts molt coneguts de Barcelona. L'objec
   - [Proves / Tests](#proves--tests)
   - [Implementacions al futur](#implementacions-al-futur)
   - [Crèdits](#crèdits)
-  - [Equip](#equip)
 
 ## Experiència de l'usuari (UX)
 
@@ -103,7 +102,3 @@ L'API gestiona una quantitat ingent de dades, que en una evolució de la mateixa
 Ens agradaria donar les gràcies a Jump2Digital per acollir aquest esdeveniment i facilitar aquesta experiència d'equip a través d'un hackathó presencial. Els mentors han sigut extremadament útils per al nostre equip i han proporcionat una retroalimentació valuosa, tant al principi com al llarg de les activitats del dia.
 
 Per últim, gràcies al nostre equip per haver treballat junts d'una manera diligenta per fer realitat aquesta aplicació!
-
-## Equip
-
-Raul Alhena
