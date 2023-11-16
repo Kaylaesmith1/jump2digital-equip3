@@ -9,10 +9,6 @@ import { Model } from 'mongoose';
 export class MuseumsService {
   constructor(@InjectModel(Museum.name) private museumModel: Model<Museum>) {}
 
-  create(createMuseumDto: CreateMuseumDto) {
-    return 'This action adds a new museum';
-  }
-
   async findAll() {
     try {
       const museums = await this.museumModel.findOneAndUpdate();
@@ -24,10 +20,6 @@ export class MuseumsService {
 
   findOne(id: number) {
     return `This action returns a #${id} museum`;
-  }
-
-  update(id: number, updateMuseumDto: UpdateMuseumDto) {
-    return `This action updates a #${id} museum`;
   }
 
   remove(id: number) {
