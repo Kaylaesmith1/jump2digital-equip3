@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 .leaflet-container {
-    height: 100vh;
+	position: fixed !important;
+	inset: 0 !important;
+	z-index: -1 !important;
+	height: 100vh;
 }
