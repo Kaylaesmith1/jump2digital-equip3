@@ -1,15 +1,24 @@
-import { Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { CreateMuseumDto } from './dto/create-museum.dto';
 import { UpdateMuseumDto } from './dto/update-museum.dto';
+import { InjectModel } from '@nestjs/mongoose';
+import { Museum } from './schemas/museum.schema';
 
 @Injectable()
 export class MuseumsService {
+  constructor(@InjectModel(Museum.name) private museumModel: Model<Museum>) {}
+
   create(createMuseumDto: CreateMuseumDto) {
     return 'This action adds a new museum';
   }
 
-  findAll() {
-    return `This action returns all museums`;
+  async findAll() {
+    try {
+      const museums = await this.museumModel.findOneAndUpdate();
+      return museums;
+    } catch (error) {
+      throw HttpException(error.message, HttpStatus.BAD_REQUEST);
+    }
   }
 
   findOne(id: number) {
