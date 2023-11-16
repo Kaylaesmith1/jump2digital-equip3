@@ -16,9 +16,18 @@ export class ZonesService {
     return 'This action adds a new zone';
   }
 
-  async findAll() {
+  async findAll(page: number, limit: number) {
     try {
-      const zones = await this.zoneModel.find();
+      page = page * 1 || 1;
+      limit = limit * 1 || 500;
+      const skip = (page - 1) * limit;
+      const zones = await this.zoneModel.find().skip(skip).limit(limit);
+
+      if (page) {
+        const zonesCount = await this.zoneModel.countDocuments();
+        if (skip >= zonesCount)
+          throw new HttpException('Page not found', HttpStatus.BAD_REQUEST);
+      }
       return zones;
     } catch (error) {
       throw new HttpException(error.message, HttpStatus.BAD_REQUEST);

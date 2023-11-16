@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Param } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param, Query } from '@nestjs/common';
 import { ZonesService } from './zones.service';
 import { CreateZoneDto } from './dto/create-zone.dto';
 
@@ -12,8 +12,8 @@ export class ZonesController {
   }
 
   @Get()
-  findAll() {
-    return this.zonesService.findAll();
+  findAll(@Query('page') page: number, @Query('limit') limit: number) {
+    return this.zonesService.findAll(page, limit);
   }
 
   @Get(':id')
